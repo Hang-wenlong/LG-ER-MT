@@ -17,7 +17,7 @@ This repository is based on PyTorch 0.4.1.
    Please download Atrial Segmentation Challenge dataset (https://atriaseg2018.cardiacatlas.org/)
    Put the data in `data/2018LA_Seg_TrainingSet`.
     ```
-3. Test the model:
+3. Test model:
  
    ```shell
    cd code
