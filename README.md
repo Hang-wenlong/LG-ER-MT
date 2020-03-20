@@ -1,5 +1,5 @@
 # LG-ER-MT
-code for Local and Global Structure-aware Entropy Regularized Mean Teacher Model for 3D Left Atrium segmentation
+Model for reproducing experimental results. Code will be released soon.
 
 ### Installation
 This repository is based on PyTorch 0.4.1.
@@ -12,7 +12,8 @@ This repository is based on PyTorch 0.4.1.
    git clone https://github.com/3DMRIs/LG-ER-MT.git
    cd LG-ER-MT
    ```
-2. Put the data in `data/2018LA_Seg_TrainingSet`.
+2. Please download Atrial Segmentation Challenge dataset (https://atriaseg2018.cardiacatlas.org/)
+   Put the data in `data/2018LA_Seg_TrainingSet`.
    
 3. Test the model:
  
@@ -20,4 +21,3 @@ This repository is based on PyTorch 0.4.1.
    cd code
    python test_LA.py --gpu 0
    ```
-4. Datasets and codes will be available online upon publication.
